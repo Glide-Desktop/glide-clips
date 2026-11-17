@@ -13,7 +13,7 @@ workspace = true
 [dependencies]
 futures-channel = "0.3"
 futures-util = { version = "0.3", default-features = false, features = ["std"] }
-glide-app = { path = "../glide-app" }
+glide-app.workspace = true
 gstreamer = "0.25"
 gstreamer-app = "0.25"
 gstreamer-pbutils = "0.25"

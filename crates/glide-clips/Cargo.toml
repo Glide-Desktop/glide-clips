@@ -30,8 +30,8 @@ iced = { version = "0.14.0", default-features = false, features = [
     "web-colors",
     "advanced",
 ] }
-glide-config = { path = "../glide-config" }
-glide-sdk = { path = "../glide-sdk" }
+glide-config.workspace = true
+glide-sdk.workspace = true
 glide-video = { path = "../glide-video" }
 image = { version = "0.25", default-features = false, features = ["png"] }
 serde.workspace = true
